@@ -1,0 +1,200 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ch",
+				"checked"
+			],
+			[
+				"con",
+				"console"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/suppal/Desktop/icemail"
+	],
+	"file_history":
+	[
+		"/C/Users/suppal/Desktop/jq/three.html",
+		"/C/Users/suppal/Desktop/jq/two.html",
+		"/C/Users/suppal/Desktop/jq/one.html",
+		"/C/Users/suppal/Downloads/gmail-api-javascript-example-master/gmail-api-javascript-example-master/01 - Basic client/index.html",
+		"/C/Users/suppal/Desktop/jq/four.html",
+		"/C/Users/suppal/Desktop/jq/six.html",
+		"/C/Users/suppal/Desktop/jq/five.html",
+		"/C/Users/suppal/Desktop/jq/nine.html",
+		"/C/Users/suppal/Desktop/jq/ten.html",
+		"/C/Users/suppal/Desktop/jq/eight.html",
+		"/C/Users/suppal/Desktop/jq/seven.html",
+		"/C/Users/suppal/Downloads/Sublime Text Build 3126/Data/Packages/User/Package Control.sublime-settings",
+		"/C/Users/suppal/Desktop/jq/one.js",
+		"/C/Users/suppal/Desktop/ajaxandjson/test1.html",
+		"/C/Users/suppal/Desktop/ajaxandjson/bascload.html",
+		"/C/Users/suppal/Desktop/jsfun/funconstr.html",
+		"/C/Users/suppal/Desktop/jsfun/funinvar.html"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			">",
+			"reset"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "icemail.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 133.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
