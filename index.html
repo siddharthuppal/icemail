@@ -1,40 +1,142 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
+<head>
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+</head>
+<body>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+<div class="topnav" id="myTopnav">
+  <a href="#home">Home</a>
+  
+  <a style="left: 50%;" href="#contact">Contact</a>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+  <a id="sin" style="float:right" href="#about">Sign In</a>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+  <a style="float:right" id = "setarea" href="#">Settings</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px; background-color:#f5f5f5">
+    <span style=" font-weight: bold; font-size: 24px;" >Mail</span>
+   <span id= "sone"><input id = "inone" type="text" name="firstname" value="Search Here">
+
+</div>
+
+<div class ="container" style="padding-left:16px; background-color:#f5f5f5">
+
+ <div class="left-menu" style="display:inline-block; padding-left:16px; background-color:lightgrey ">
+  <span style=" font-weight: bold; font-size: 24px;" >Main Menu</span>
+  <hr>
+
+<ul>
+  <button class="button button1">COMPOSE</button>
+  <li><a href="#home">Inbox</a></li>
+  <li><a href="#news">Starred</a></li>
+  <li><a href="#contact">Sent Mail</a></li>
+  <li><a href="#about">Drafts</a></li>
+</ul>
+
+
+
+</div>
+
+
+
+<div class="mail-area" style="display:inline-block; padding-left:16px; background-color:#e6ebf4 ">
+  <span style=" font-weight: bold; font-size: 24px;" >Mail Area</span>
+  <hr>
+
+<table>
+  <tr id = "ti">
+    <th width="25%">From</th>
+    <th width="65%">Message</th>
+    <th width="10%">Date</th>
+  </tr>
+  <tr class = "msgrow">
+    <td>Team Gmail</td>
+    <td>Welcome To Gmail...</td>
+    <td>10 Jul</td>
+  </tr>
+  <tr class = "msgrow">
+    <td>Team Microsoft</td>
+    <td>Welcome To Microsoft...</td>
+    <td>2 Jul</td>
+  </tr>
+  <tr class = "msgrow">
+    <td>Team Gmail</td>
+    <td>Welcome To Gmail...</td>
+    <td>1 Jul</td>
+  </tr>
+    <tr class = "msgrow">
+    <td>Team Gmail</td>
+    <td>Welcome To Gmail...</td>
+    <td>10 Jul</td>
+  </tr>
+  <tr class = "msgrow">
+    <td>Team Microsoft</td>
+    <td>Welcome To Microsoft...</td>
+    <td>2 Jul</td>
+  </tr>
+  <tr class = "msgrow">
+    <td>Team Gmail</td>
+    <td>Welcome To Gmail...</td>
+    <td>1 Jul</td>
+  </tr>
+
+</table>
+
+
+
+
+</div>
+
+<div class="prev-area" style="padding-left:16px; background-color:#ffffff ">
+  <h2>Compose Mail Window</h2>
+  <p>Write mail here</p>
+</div>
+
+
+</div>
+
+<div class="sett-area" style="padding-left:16px; background-color:#ffffff ">
+  <h2>Compose Mail Window</h2>
+  <p>Write mail here</p>
+</div>
+
+
+
+
+
+
+
+
+<script>
+  
+$(document).ready(function(){
+    $(".button1").click(function(){
+        $(".prev-area").show();
+    });
+}); 
+
+$(document).ready(function(){
+    $("#setarea").click(function(){
+        $(".sett-area").toggle(50);
+    });
+}); 
+ 
+</script>
+
+
+
+
+
+
+</body>
 </html>
