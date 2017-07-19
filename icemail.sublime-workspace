@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"BA",
+				"background"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"i",
+				"initial"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
 				"ch",
 				"checked"
 			],
@@ -15,6 +47,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2980,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -56,6 +96,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/suppal/Desktop/icemail/main.css",
+		"/C/Users/suppal/Desktop/icemail/index.html",
 		"/C/Users/suppal/Desktop/jq/three.html",
 		"/C/Users/suppal/Desktop/jq/two.html",
 		"/C/Users/suppal/Desktop/jq/one.html",
@@ -76,7 +118,7 @@
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -110,14 +152,45 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2865,
+								2879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2400.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -154,7 +227,7 @@
 	"project": "icemail.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -192,7 +265,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 133.0,
+	"side_bar_width": 156.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

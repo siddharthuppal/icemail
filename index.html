@@ -2,6 +2,11 @@
 <html>
 <head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 <link rel="stylesheet" type="text/css" href="main.css">
 <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 <script
@@ -13,25 +18,42 @@
 <body>
 
 <div class="topnav" id="myTopnav">
-  <a href="#home">Home</a>
   
-  <a style="left: 50%;" href="#contact">Contact</a>
+
+  <img id = "navlogo" src="Img/logo.png" alt="This is my sites logo">
+
+
+
 
   <a id="sin" style="float:right" href="#about">Sign In</a>
 
-  <a style="float:right" id = "setarea" href="#">Settings</a>
+  <a style="float:right" id = "setarea" href="#">Settings<i class="material-icons">keyboard_arrow_down</i></a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 <div style="padding-left:16px; background-color:#f5f5f5">
-    <span style=" font-weight: bold; font-size: 24px;" >Mail</span>
-   <span id= "sone"><input id = "inone" type="text" name="firstname" value="Search Here">
+    
+    <span id ="mail_but" style=" font-weight: bolder;font-size: 28px;color: #201e2d;border: 8px solid #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; >Mail <i class="material-icons">arrow_drop_down</i></span>
+
+
+
+  
+   <span  id= "sone">
+              
+              <input style="width:500px; margin:0 auto; height:40px; font-size:14pt;" id = "inone" type="text" name="searchmail" value="Search Inbox " onfocus="if (this.value == 'Search Inbox ') {this.value=''}">
+              
+          
+              <button type="button"><i class="material-icons md-36">search</i></button>
+              
+   </span>
+
+
 
 </div>
 
 <div class ="container" style="padding-left:16px; background-color:#f5f5f5">
 
- <div class="left-menu" style="display:inline-block; padding-left:16px; background-color:lightgrey ">
+ <div class="left-menu">
   <span style=" font-weight: bold; font-size: 24px;" >Main Menu</span>
   <hr>
 
@@ -49,7 +71,7 @@
 
 
 
-<div class="mail-area" style="display:inline-block; padding-left:16px; background-color:#e6ebf4 ">
+<div class="mail-area">
   <span style=" font-weight: bold; font-size: 24px;" >Mail Area</span>
   <hr>
 
@@ -97,20 +119,21 @@
 
 </div>
 
-<div class="prev-area" style="padding-left:16px; background-color:#ffffff ">
-  <h2>Compose Mail Window</h2>
-  <p>Write mail here</p>
-</div>
+<div class="prev-area">
 
 
 </div>
 
-<div class="sett-area" style="padding-left:16px; background-color:#ffffff ">
-  <h2>Compose Mail Window</h2>
-  <p>Write mail here</p>
+
 </div>
 
+<div class="sett-area">
 
+</div>
+
+<div class="mail-sett-area">
+
+</div>
 
 
 
@@ -130,6 +153,13 @@ $(document).ready(function(){
         $(".sett-area").toggle(50);
     });
 }); 
+
+$(document).ready(function(){
+    $("#mail_but").click(function(){
+        $(".mail-sett-area").toggle(50);
+    });
+});
+
  
 </script>
 
