@@ -33,23 +33,60 @@
 
 <div style="padding-left:16px; background-color:#f5f5f5">
     
-    <span id ="mail_but" style=" font-weight: bolder;font-size: 28px;color: #201e2d;border: 8px solid #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; >Mail <i class="material-icons">arrow_drop_down</i></span>
-
-
+    <button id ="mail_but" style=" font-weight: bolder;font-size: 28px;color: #201e2d;border: 8px solid #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; >Mail <i class="material-icons">arrow_drop_down</i></button>
 
   
    <span  id= "sone">
               
-              <input style="width:500px; margin:0 auto; height:40px; font-size:14pt;" id = "inone" type="text" name="searchmail" value="Search Inbox " onfocus="if (this.value == 'Search Inbox ') {this.value=''}">
+              <input style="width:500px; margin:0 auto; height:40px; font-size:14pt;" id = "inone" onkeyup="myFunction()" type="text" name="searchmail" value="Search Inbox " onfocus="if (this.value == 'Search Inbox ') {this.value=''}">
               
           
               <button type="button"><i class="material-icons md-36">search</i></button>
               
    </span>
 
+   <span  id= "buttontray1">
+
+
+<button id ="mail_but" style=" font-weight: bolder;font-size: 28px;color: #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; ><i class="material-icons md-36">refresh</i></button>
+
+
+<button id ="mail_but" style=" font-weight: bolder;font-size: 28px;color: #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; ><i class="material-icons md-36">delete_forever</i></button>
+</span>
+ 
+
+
+    <span  id= "buttontray3">
+<button id ="view_but1" style=" font-weight: bolder;font-size: 36px;color: #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; ><i class="material-icons md-36">chrome_reader_mode</i></button>
+
+<button id ="view_but2" style=" font-weight: bolder;font-size: 36px;color: #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; ><i class="material-icons md-36">class</i></button>
+
+
+</span>
+
+
+   <span  id= "buttontray2">
+<button id ="mail_but" style=" font-weight: bolder;font-size: 28px;color: #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; ><i class="material-icons md-36">keyboard_arrow_left</i></button>
+
+
+<button id ="mail_but" style=" font-weight: bolder;font-size: 28px;color: #201e2d;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;padding-left: 1px;"; ><i class="material-icons md-36">keyboard_arrow_right</i></button>
+
+</span>
+   
+
+
+
 
 
 </div>
+
+
+
+
+   
+</div>
+
+
 
 <div class ="container" style="padding-left:16px; background-color:#f5f5f5">
 
@@ -75,7 +112,7 @@
   <span style=" font-weight: bold; font-size: 24px;" >Mail Area</span>
   <hr>
 
-<table>
+<table id = "myTable">
   <tr id = "ti">
     <th width="25%">From</th>
     <th width="65%">Message</th>
@@ -111,6 +148,18 @@
     <td>Welcome To Gmail...</td>
     <td>1 Jul</td>
   </tr>
+  <tr class = "msgrow">
+    <td>Team Gmail</td>
+    <td>Welcome To Gmail...</td>
+    <td>10 Jul</td>
+  </tr>
+  <tr class = "msgrow">
+    <td>Team Microsoft</td>
+    <td>Welcome To Microsoft...</td>
+    <td>2 Jul</td>
+  </tr>
+
+
 
 </table>
 
@@ -119,10 +168,43 @@
 
 </div>
 
-<div class="prev-area">
+
+
+
+
+
+
+
+
+
+
+
+<div  id="mail-ar" class = "mail-prev">
+Mail preview
+</div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
+
+
+
+
+
+
+
 
 
 </div>
@@ -132,7 +214,9 @@
 </div>
 
 <div class="mail-sett-area">
+<ul>
 
+</ul>
 </div>
 
 
@@ -140,11 +224,64 @@
 
 
 
+
+<!--  Compose Mail          -->
+<div class="compose-mail">
+  <div id="compose-title">
+        <span style="font-weight: bold;">
+            New Message
+        </span>    
+
+        
+        <span id="cross_compose" style="float: right;">
+          <button id=cancel_but>
+              <i class="material-icons md-18">cancel</i>
+          </button>
+        </span>
+  </div>
+
+
+
+   <div style="border-style: solid;border-width: 2px;border-color: darkgrey;border-top:none;padding-top: 6px;padding-bottom: 6px;" class="genericincol">
+        <span style="height: 20px;width: 20px;">
+          <label style="font-weight: bold;font-size: 18px;" for="toper">To:</label>
+          <input style="font-size: 18px;width:93%;" class="genericin" type="text" id="toper" />
+        </span>
+
+    </div>
+
+        <div style="border-style: solid;border-width: 2px;border-color: darkgrey;border-top:none;padding-top: 6px;padding-bottom: 6px;" class="genericincol">
+        <span>
+          <input style="font-weight:bold; font-size: 18px;width:97%;"onfocus="if (this.value == 'Subject') {this.value=''}" value="Subject" class="genericin" type="text" id="toper" />
+        </span>
+
+    </div>
+
+    <div style="border-style: solid;border-width: 2px;border-color: darkgrey;border-top:none;padding-top: 0px;padding-bottom: 0px;padding-right: 5px;padding-left: 0px;" class="genericincol">
+          
+            <textarea style="width : 100%;height: 320px;border : none;background-color: #f3f0f0;"></textarea>
+
+    </div>
+  
+   <div style="border-style: solid;border-width: 2px;border-color: darkgrey;border-top:none;padding-top: 6px;padding-bottom: 6px;padding-right:6px;padding-left: 10px;" class="genericincol">
+          
+            <button style="font-size: 20px;background-color:#778daf;color: #000000;font-weight: bold;border-style: solid;border-width: 2px;border-color: #201e2d;">Send</button>
+
+    </div>
+
+
+    </div>
+
+
+
+
+
+<!--                                                                         -->
 <script>
   
 $(document).ready(function(){
     $(".button1").click(function(){
-        $(".prev-area").show();
+        $(".compose-mail").show();
     });
 }); 
 
@@ -160,6 +297,90 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $(".msgrow").click(function(){
+       
+      $( ".mail-area" ).css({
+      "width": "25%",
+      "display": "inline-block"
+    });
+
+$( "#mail-ar" ).removeClass( "mail-prev" );
+$( "#mail-ar" ).addClass( "mail-prev1" );
+$( "#buttontray2" ).removeAttr( "display" );
+      $( "#buttontray2" ).css({
+      "display": "inline-block"
+    });
+
+
+    });
+});
+
+$(document).ready(function(){
+    $("#view_but1").click(function(){
+      $( ".mail-area" ).css({
+      "width": "25%",
+      "display": "inline-block"
+    });
+
+$( "#mail-ar" ).removeClass( "mail-prev" );
+$( "#mail-ar" ).addClass( "mail-prev1" );
+$( "#buttontray2" ).removeAttr( "display" );
+      $( "#buttontray2" ).css({
+      "display": "inline-block"
+    });
+
+
+
+    });
+});
+
+$(document).ready(function(){
+    $("#view_but2").click(function(){
+      $( ".mail-area" ).css({
+      "width": "78%",
+      "display": "inline-block"
+    });
+
+$( "#mail-ar" ).removeClass( "mail-prev1" );
+$( "#mail-ar" ).addClass( "mail-prev" );
+$( "#buttontray2" ).removeAttr( "display" );
+      $( "#buttontray2" ).css({
+      "display": "none"
+    });
+
+
+
+    });
+});
+
+
+
+$(document).ready(function(){
+    $("#cross_compose").click(function(){
+        $(".compose-mail").hide();
+    });
+});
+
+
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("inone");
+  console.log(input);
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
  
 </script>
 
