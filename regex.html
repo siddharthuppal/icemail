@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<style>
+
+p{
+  color: red;
+  font-weight: bold;
+
+}
+
+</style>
+
+
+</head>
+
+<body>
+	<script>
+	var fn,ln,mn,em,pas,cpas,noc,cnom,mon,yr,cv,fulln;
+	var au1,au2,au3,au4,au5;
+	var res1,res2,res3,res4,res5;
+	var msg;
+
+	function myFunction() {
+    fn = document.getElementById("fname").value;
+    ln = document.getElementById("lname").value;
+    mn = document.getElementById("mno").value;
+    em = document.getElementById("email").value;
+    pas = document.getElementById("pword").value;
+    cpas = document.getElementById("cpword").value;
+    noc = document.getElementById("cname").value;
+    cnom = document.getElementById("cno").value;
+    mon = document.getElementById("expireMM").value;
+    yr = document.getElementById("expireYY").value;
+    cv = document.getElementById("cvv").value;
+
+    console.log(fn);
+    console.log(ln);
+    console.log(mn);
+    console.log(em);
+    console.log(pas);
+    console.log(cpas);
+	console.log(noc);
+	console.log(cnom);
+	console.log(mon);
+	console.log(yr);
+	console.log(cv);
+    
+	fulln = fn+ln;
+	console.log(fulln);
+    
+
+    au1 = /^([a-zA-Z ]|')*$/;
+    au2 = /^[1-9][0-9]{9}$/;
+    au3 = /^[a-zA-Z]{1}[0-9]*@[a-zA-Z]*\.[a-zA-Z]*$/;
+    au4 = /((?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&*()_+\-=\[\]\{\}\\';":/?><.,]).{8,8})/;
+    au5 = /^(?:4[0-9]{12}(?:[0-9]{3})?|[25][1-7][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$/;
+	console.log(au1);
+	console.log(au2);
+	console.log(au3);
+	console.log(au4);
+	console.log(au5);
+
+
+	res1 = au1.test(fulln);
+	res2 = au2.test(mn);
+	res3 = au3.test(em);
+	res4 = au4.test(pas);
+	res5 = au5.test(cnom);
+
+	console.log(res1);
+	console.log(res2);
+	console.log(res3);
+	console.log(res4);
+	console.log(res5);
+		console.log(fulln);
+
+	document.getElementById("one").innerHTML = "";
+	document.getElementById("two").innerHTML = "";
+	document.getElementById("three").innerHTML = "";
+	document.getElementById("four").innerHTML = "";
+	document.getElementById("five").innerHTML = "";
+
+	if (!res1){
+		document.getElementById("one").innerHTML = "First Name + Last Name in wrong format";
+	}
+
+	if(!res2){
+		document.getElementById("two").innerHTML = "Mobile Number in wrong format";
+	}
+
+	if(!res3){
+		document.getElementById("three").innerHTML = "Email Number in wrong format";
+	}	
+
+	if(!res4){
+		document.getElementById("four").innerHTML = "Password in wrong format";
+	}
+
+	if(!res5){
+		document.getElementById("five").innerHTML = "Debit / Credit Card in wrong format";
+	}
+
+    //document.getElementById("demo").innerHTML = /e/.test(text);
+}
+
+
+
+
+
+	</script>
+
+
+	<form style="margin-left: 20px; margin-top: 10px;">
+		<label>First Name</label><input type="text" name="fname" id="fname"><p id="one"></p>
+			<br><br>
+
+		<label>Last Name</label><input type="text" name="lname" id="lname">
+			<br><br>
+
+		<label>Mobile No</label><input type="text" name="mno" id="mno" maxlength="10"><p id="two"></p>
+			<br><br>
+
+		<label>Email</label><input type="text" name="email" id="email"><p id="three"></p>
+			<br><br>
+
+		<label>Password</label><input type="Password" name="pword" id="pword" maxlength="8"><p id="four"></p>
+			<br><br>
+
+		<label>Confirm Password</label><input type="Password" name="cpword" id="cpword" maxlength="8">
+			<br><br>
+		<label>Name  On Card</label> <input type="text" name="cname" id="cname">
+			<br><br>
+
+
+
+		<label>Card No</label><input type="text" name="cno" id="cno" maxlength="16"><p id="five"></p>
+			<br><br>
+
+		<select name='expireMM' id='expireMM'>
+    <option value=''>Month</option>
+    <option value='01'>January</option>
+    <option value='02'>February</option>
+    <option value='03'>March</option>
+    <option value='04'>April</option>
+    <option value='05'>May</option>
+    <option value='06'>June</option>
+    <option value='07'>July</option>
+    <option value='08'>August</option>
+    <option value='09'>September</option>
+    <option value='10'>October</option>
+    <option value='11'>November</option>
+    <option value='12'>December</option>
+</select> 
+<select name='expireYY' id='expireYY'>
+    <option value=''>Year</option>
+    <option value='10'>2010</option>
+    <option value='11'>2011</option>
+    <option value='12'>2012</option>
+</select> 
+<br><br>
+		<label>cvv</label><input type="Password" name="cvv" id="cvv" maxlength="3">
+			<br><br>
+
+<input type="button" onclick="myFunction()" value="Submit form">
+
+
+	</form>
+
+
+
+</body>
+</html>

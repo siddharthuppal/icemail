@@ -4,6 +4,94 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"fu",
+				"fulln"
+			],
+			[
+				"wr",
+				"wrong"
+			],
+			[
+				"au",
+				"au2"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"ln",
+				"ln"
+			],
+			[
+				"ex",
+				"expireYY"
+			],
+			[
+				"cn",
+				"cname"
+			],
+			[
+				"em",
+				"em"
+			],
+			[
+				"mn",
+				"mno"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"com",
+				"compose-mail"
+			],
+			[
+				"cross",
+				"cross_compose"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
 				"mar",
 				"margin-left"
 			],
@@ -14,14 +102,6 @@
 			[
 				"mail-",
 				"mail-area"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"l",
-				"li\tTag"
 			],
 			[
 				"light",
@@ -48,10 +128,6 @@
 				"font-weight"
 			],
 			[
-				"marg",
-				"margin-left"
-			],
-			[
 				"i",
 				"initial"
 			],
@@ -75,17 +151,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5722,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "main.css",
-			"settings":
-			{
-				"buffer_size": 4814,
-				"encoding": "UTF-8",
+				"buffer_size": 9068,
 				"line_ending": "Windows"
 			}
 		}
@@ -130,8 +196,10 @@
 	],
 	"file_history":
 	[
-		"/C/Users/suppal/Desktop/icemail/main.css",
+		"/C/Users/suppal/Desktop/icemail/icemail.sublime-project",
 		"/C/Users/suppal/Desktop/icemail/index.html",
+		"/C/Users/suppal/Desktop/icemail/regex.html",
+		"/C/Users/suppal/Desktop/icemail/main.css",
 		"/C/Users/suppal/Desktop/jq/three.html",
 		"/C/Users/suppal/Desktop/jq/two.html",
 		"/C/Users/suppal/Desktop/jq/one.html",
@@ -152,7 +220,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -166,6 +234,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"four",
+			"one",
+			"res5",
+			"au1.test(text);",
+			"\">",
+			"%;\"",
+			"d3d9e2",
+			"black",
 			"mail",
 			"mail-are",
 			"mail-prev",
@@ -206,15 +282,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5722,
+						"buffer_size": 9068,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5104,
-								5104
+								0,
+								0
 							]
 						],
 						"settings":
@@ -224,40 +300,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4033.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4814,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4775,
-								4775
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6000.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -265,7 +311,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -302,7 +348,7 @@
 	"project": "icemail.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
