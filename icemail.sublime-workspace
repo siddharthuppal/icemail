@@ -289,8 +289,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								3810,
+								3812
 							]
 						],
 						"settings":
@@ -300,7 +300,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2337.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
