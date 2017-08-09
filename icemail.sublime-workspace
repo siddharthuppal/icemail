@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"bl",
+				"black"
+			],
+			[
+				"user",
+				"userinfo"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
 				"max",
 				"maxlength\tAttr"
 			],
@@ -151,8 +171,36 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9068,
+				"buffer_size": 13996,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.css",
+			"settings":
+			{
+				"buffer_size": 5445,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "quickstart.html",
+			"settings":
+			{
+				"buffer_size": 4082,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "id\n\n746115098387-2vogumrsq3ju87jclfdba729gj1lgtk5.apps.googleusercontent.com\n\nsecret\n\ndxQZz-IQ2uRKY4sDUUZkZ0rX",
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Windows",
+				"name": "id"
 			}
 		}
 	],
@@ -234,6 +282,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sett",
+			"mail",
+			"multi",
+			"ul",
+			"inbo",
+			"list",
+			"email",
+			"me",
+			"');",
+			"list",
+			".jp",
+			"logo.jp",
+			"conte",
+			"secret",
 			"four",
 			"one",
 			"res5",
@@ -273,7 +335,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -282,15 +344,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9068,
+						"buffer_size": 13996,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3810,
-								3812
+								5102,
+								5102
 							]
 						],
 						"settings":
@@ -300,10 +362,98 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2337.0,
+						"translation.y": 4178.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2104,
+								2104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2506.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "quickstart.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								4
+							]
+						],
+						"settings":
+						{
+							"auto_name": "id",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

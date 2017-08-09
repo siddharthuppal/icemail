@@ -142,12 +142,12 @@ background-color:lightgrey;
     position: absolute;
     top: 0;
     right: 150px;
-    width: 200px;
-    height: 250px;
-    border: 3px solid lightgrey;
+    width: 100px;
+    height: 100px;
+   
     margin-top: 50px;
     display: none;
-    padding-left:16px; 
+    padding:0px 0px; 
     background-color:#ffffff;
 }
 
@@ -157,11 +157,10 @@ background-color:lightgrey;
     left: 20px;
     width: 100px;
     height: 60px;
-    border: 3px solid lightgrey;
     margin-top: 50px;
-    display: none;
-    padding-left:16px; 
+    display: none; 
     background-color:#ffffff;
+    padding: 0px 0px;
 }
 
 
@@ -213,6 +212,13 @@ li a:hover {
     background-color: #555;
     color: white;
 }
+
+#smallmenu{
+
+  width: 110px;
+}
+
+
 
 .button {
     background-color: #201e2d;
